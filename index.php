@@ -30,7 +30,7 @@
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index-errado.php">::: NetChute :::</a>
+				<a class="navbar-brand" href="index.php">::: NetChute :::</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -43,7 +43,7 @@
 							<a class="nav-link" href="listar-paise-da-oceania.php">Listar Clientes</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="index-também-estou-errado.php">Cadastrar Clientes</a>
+							<a class="nav-link" href="index.php">Cadastrar Clientes</a>
 						</li>
 					</ul>
 				</div>
@@ -60,8 +60,8 @@
 			<div class="card w-75 p-3 rounded">
 				<div class="card-header">
 					<h5 class="card-title">Dados do cliente:</h5>
-				</div>
-				<div class="card-body">
+				    
+				   <div class="card-body">
 
 					<form name="frm" id="frm" action="index-errado-que-vai-para-um-lugar-que-nao-existe.php" method="post">
 
@@ -84,14 +84,14 @@
 							<input type="text" id="cpf" name="" class="form-control" value="9999999">
 							<small  class="form-text text-muted"><em>Somente números.</em></small>
                             </div>
-						<div class="col col-sm-8">
+						    <div class="col col-sm-8">
 							<label class="form-label">E-mail: </label>
 							<input type="email" id="email" name="" class="form-control" value="">
 							<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
 						</div>
-					</div>
+					
 						<br>
-						<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
+						<button type="submit" class="btn btn-primary" Onclick="enviar(1)">Cadastrar</button>
 
 						<br><br>
 
@@ -107,7 +107,8 @@
 							}
 						</script>
 
-						</div>
+						
+                    </div>
 
 				</div>
 
@@ -121,7 +122,10 @@
 			<div class="footer-copyright fixed-bottom bg-primary text-center py-3">
 				<span class="text-light align-middle">| ::: NetChute - Artigos esportivos. ::: UC 14 | - ©
 					2022 Copyright: CTM Supervisão de Educação Online</span>
-						</div>
+						
+				</div>
+				
+			</div>
 
 		</div>
 	</div>
